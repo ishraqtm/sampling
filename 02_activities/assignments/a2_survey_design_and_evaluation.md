@@ -40,30 +40,38 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1: Human Resources Department at a large tech company`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of my survey is to help my company investigate and understand the factors contributing to high turnover among entry- and lower-level positions across our departments, in order to drive changes that will improve employee satisfaction and reduce turnover
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+1. Target population - All current and former entry- and lower-level employees employed within the last 12 months
+2. Sampling frame - Company HR/Employee database
+3. Sampling units - Individual employees who currently hold, or have recently turned over from entry- or lower-level positions
+4. Observational units - Randomly selected employees 
+5. Sampling strategy - Stratified sampling for current employees and Convenience sampling for employees who have recently turned over. Incentivize participation by offering giftcards (especially to reduce non-participation from employees who have turned over)
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Are you currently employed by our company? (Yes / No)
+2. What is your current / former department? (List of departments to select from)
+3. How long were you currently / previously employed with the company? (Duration in years and months)
+4. On a scale of 1-5, what is/was your level of satisfaction with your employment at the company? (1-5)
+5. On a scale of 1-5 how satisfied are/were you with each of the following factors during your employement at the company? (Paygrade and Salary, Promotion opportunities, Workload and Work-related Stress, Company culture, Sense of belonging, Visibility and Recognition, Learning and Growth opportunities, Support from Manager, Support from Team, Company's mission and direction)
+6. Are there other factors relating to your role, the company, or your employment that you are / were dissatisfied with? (Freeform)
+7. What changes or improvements would you recommend to make the company a better place to work? (Freeform)
+
+Rikert Scale for Survey: 
+1 = Very dissatisfied
+2 = Dissatisfied
+3 = Neutral (Neither satisfied or dissatisfied)
+4 = Satisfied
+5 = Very satisfied
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +79,21 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - Stratified Sampling
+2. Sample size - 16,149
+3. Target population - All non-institutionalized individuals living in the 10 provinces, who are aged 15 and older
+4. Sampling frame - List of landline and cellular telephone numbers associated with the same address from Census database and Statistics Canada's dwelling frame
+5. Survey mode(s) - Electronic questionnaire and Computer Assisted Telephone Interviews (CATI)
+6. Timeline - Between 2018-09-04 to 2018-12-28
+7. Response rate - 41.9%
+8. Weights - Weights were adjusted for non response and applied to each person in WGHT_PER to normalize survey estimate according to what portion of the broader Canadian population each participant represents
+9. Data processing - StatsCan applied data processing steps to manage quality and standardizing responses using Social Survey Processing Environment (SSPE)
+10. Cleaning, imputation, etc - Inconsistencies were corrected and missing values were imputed from survey participants for non-participants using a scoring system.
+11. Sources of error - Sampling error (undercoverage in response rate) and non-sampling errors (language barriers leading to participants not understanding question, incorrectly answering question). Process error where the participant incorrectly inputs responses
+12. Limitations, known biases, etc - Nonresponse bias, sampling and coverage bias (e.g., excludes 3 Territories and institutionalized individuals, so results cannot be generalized for these groups).
+13. Link to documentation and any additional sources used:
+    a. https://abacus.library.ubc.ca/dataset.xhtml?persistentId=hdl:11272.1/AB2/GBFDYG&version=1.0
+    b. https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
